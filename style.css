@@ -74,6 +74,11 @@ p {
     transform: scale(1.05);
 }
 
+.productosItem.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
 .precio-botton {
     display: flex;
     justify-content: space-between;
